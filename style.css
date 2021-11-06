@@ -1,0 +1,22 @@
+h3 {
+  font-size: 25px !important;
+}
+
+.btn-success:hover {
+  background-color: rgb(179, 32, 32);
+}
+
+canvas {
+  animation-name: human_dog;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes human_dog {
+  from {
+    box-shadow: 1px 1px 38px blue;
+  }
+  to {
+    box-shadow: 1px 1px 38px pink;
+  }
+}
